@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Dioceses Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive map displaying the Catholic Dioceses of England & Wales.
 
-## Available Scripts
+As of 12th April 2025, it looks like this:
+
+![Screenshot of first Map](image.png)
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode.
 
-The page will reload when you make changes.\
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
+### Still to do:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In no particular order:
 
-### `npm run build`
+- Start doing Test Driven Development
+- Add the Isle of Man to Liverpool Diocese
+- Add the Channel islands to Portsmouth Diocese
+- Make the diocese borders more accurate so users can zoom in even further
+- Label the Dioceses
+- Add an info box
+- Colour code by ecclesiastical province
+- Start adding statistics and the ability to rank by statistics (e.g. population, number of baptisms, annual spending)
+- Tidy up copyright notice
+- Make a gif/timeline of how the diocese boundaries have changed over time
+- Add in Cathedrals
+- Add in Scottish and Irish dioceses
+- (Stretch goal) Add in Anglican Dioceses + other religious regions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Inspirations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Inspriation continues to be drawn from:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Catholic Dioceses of the USA Map](https://gavinr.com/catholic-dioceses-of-the-usa-map-updated/)
+- [US Diocese Mapper](https://github.com/kburchfiel/us_diocese_mapper)
+- [UKHSA Dashboard](https://ukhsa-dashboard.data.gov.uk/?type=cold)
 
-### `npm run eject`
+### Tools & Resources
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tools:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- QGIS
+- [Create Maps in Leaflet using ReactJS (Tutorial)](https://www.youtube.com/watch?v=2KUYOdTXK74)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Resources:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Catholic Dioceses of Great Britain (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Catholic_dioceses_in_Great_Britain)
